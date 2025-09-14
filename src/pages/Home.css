@@ -1,0 +1,29 @@
+.btn-warning {
+  width: 5% !important;
+  background: none !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  margin-top: 0rem !important;
+  margin-left: -6rem;
+}
+
+.form-control {
+  padding-top: 0.875rem !important;
+  padding-bottom: 0.875rem !important;
+  width: 45rem;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 5vh;
+  margin: 2rem 0rem;
+}
+
+.icon {
+  fill: black !important;
+  width: 55%;
+}
