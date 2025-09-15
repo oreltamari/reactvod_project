@@ -47,10 +47,14 @@ export default function MovieInfo() {
           {" "}
           <span>Plot:</span> {movie.Plot}
         </div>
-        <button className="btn btn-dark mt-3 btn-go-back" onClick={() => nav(-1)}>
+        <button
+          className="btn-more-info btn-dark mt-3 btn-go-back"
+          onClick={() => nav(-1)}
+        >
           Back To List
         </button>
       </div>
     </div>
   );
 }
+
