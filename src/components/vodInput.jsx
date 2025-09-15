@@ -28,3 +28,5 @@ function VodInput() {
 }
 
 export default VodInput;
+
+export default VodInput;
