@@ -1,4 +1,4 @@
-.btn-warning {
+.btn {
   width: 5% !important;
   background: none !important;
   display: flex !important;
@@ -6,6 +6,7 @@
   align-items: center !important;
   margin-top: 0rem !important;
   margin-left: -6rem;
+  border: none;
 }
 
 .form-control {
@@ -27,3 +28,4 @@
   fill: black !important;
   width: 55%;
 }
+
