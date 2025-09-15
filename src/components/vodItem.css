@@ -1,60 +1,76 @@
-.float-start {
-  width: 100% !important;
-  margin-bottom: 1rem;
+body {
+  font-family: "Open Sans", sans-serif;
 }
 
 h3 {
-  font-style: italic;
+  font-weight: 300;
+}
+
+.year {
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+}
+
+.btn-more-info {
+  margin-top: 2rem !important;
+  padding: 0.5rem !important;
+  font-weight: 600;
+  background-color: #f4511e;
+  border: none;
+  color: white;
+  text-align: center;
+  opacity: 0.6;
+  transition: 0.2s;
+  width: 50%;
+}
+
+.btn-more-info:hover {
+  padding: 0.8rem 1.2rem !important;
+  opacity: 1;
+  background-color: #f4511e;
+  color: white;
+  box-shadow: rgba(100, 100, 111, 0.6) 0px 7px 29px 0px;
+}
+
+.vod-card {
+  min-height: 100%;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.poster-wrapper {
+  width: 100%;
+  height: 450px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}
+
+.poster-img {
+  height: 100%;
+  width: auto;
+  object-fit: cover;
+  display: block;
+}
+
+.card-body {
+  align-items: center;
+}
+
+.movie-info h2 {
   font-weight: 300;
   padding-top: 1rem;
   margin-bottom: 1rem;
   text-align: center;
-}
-
-.box-movie {
-  display: flex !important;
-  flex-direction: column !important;
-  justify-content: center !important;
-  align-items: center !important;
-}
-
-.container-movieInfo {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  font-family: "Open Sans", sans-serif;
-  margin-top: 5rem;
-}
-
-.poster {
-  width: 65%;
-}
-
-.box-movie {
-  width: 100%;
-}
-
-.movie-info {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  text-align: left;
-  margin-left: 2rem;
-}
-
-.movie-info span {
-  font-weight: 600;
   font-style: italic;
+  font-size: 3rem;
 }
 
 .movie-info div {
-  font-size: 1.3rem !important ;
-  margin: 0.4rem 0rem;
+  font-size: 1.2rem;
 }
-
-.btn-go-back {
-  width: 25% !important;
-}
-
