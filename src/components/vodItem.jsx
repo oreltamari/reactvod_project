@@ -23,13 +23,9 @@ function VodItem({ item }) {
             <h3>{item.Title}</h3>
             <div className="year">Year: {item.Year}</div>
           </div>
-          <button className="btn mt-auto" onClick={onInfoClick}>
+          <button className="mt-auto btn-more-info" onClick={onInfoClick}>
             More Info
           </button>
         </div>
       </div>
     </div>
-  );
-}
-
-export default VodItem;
